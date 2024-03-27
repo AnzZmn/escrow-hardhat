@@ -7,7 +7,7 @@ const port = 3042;
 app.use(cors()); // Use CORS
 app.use(express.json());
 
-let contracts = ["0x32953Ba38288F7aabe0f98693BA20E6E8595BE38","0x6104bFaaFc61678429bA04788Af4e69a57a47773"];
+let contracts = [];
 
 // Define a route handler for the default home page
 app.get('/data', (req, res) => {
