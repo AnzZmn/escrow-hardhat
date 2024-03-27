@@ -29,6 +29,6 @@ To run the front-end application run `npm start` from the `/app` directory. Open
 
 `cd` into the `/server` directory and run `npm install`
 
-To run the server run `node server` from the `server` directory. 
+To run the server run `node server.js` from the `server` directory. 
 
 
